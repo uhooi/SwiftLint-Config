@@ -23,3 +23,7 @@ parent_config: https://raw.githubusercontent.com/uhooi/SwiftLint-Config/v1.0.0/u
 
 See the SwiftLint documentation for more details.  
 https://github.com/realm/SwiftLint#child--parent-configs-remote
+
+## References
+
+- [SwiftLintの設定ファイルをサーバーに配置して共有する方法 - Qiita](https://qiita.com/uhooi/items/b5b26caeeefd8dbe1afd)
