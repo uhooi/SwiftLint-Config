@@ -12,7 +12,6 @@ disabled_rules:
   #- custom_rules
   #- cyclomatic_complexity
   #- deployment_target
-  #- discarded_notification_center_observer
   #- discouraged_direct_init
   #- duplicate_enum_cases
   #- duplicate_imports
@@ -91,6 +90,7 @@ opt_in_rules:
   - anyobject_protocol
   - array_init
   - attributes
+  - balanced_xctest_lifecycle
   - closure_body_length
   - closure_end_indentation
   - closure_spacing
@@ -101,6 +101,8 @@ opt_in_rules:
   - contains_over_first_not_nil
   - contains_over_range_nil_comparison
   - convenience_type
+  - discarded_notification_center_observer
+  - discouraged_assert
   - discouraged_object_literal
   - discouraged_optional_boolean
   - discouraged_optional_collection
@@ -165,6 +167,7 @@ opt_in_rules:
   #- prefixed_toplevel_constant # 定数のプリフィックスに `k` を付けたくないため
   - private_action
   - private_outlet
+  - private_subject
   #- prohibited_interface_builder # IBを使ってビューを生成したいため
   - prohibited_super_call
   - quick_discouraged_call
@@ -199,6 +202,7 @@ opt_in_rules:
   - yoda_condition
 
 analyzer_rules:
+  - capture_variable
   #- explicit_self # 関数は `self.` を付けずに呼び出したいため
   - unused_declaration
   - unused_import
