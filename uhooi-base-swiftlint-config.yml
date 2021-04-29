@@ -201,6 +201,7 @@ opt_in_rules:
   - yoda_condition
 
 analyzer_rules:
+  - capture_variable
   #- explicit_self # 関数は `self.` を付けずに呼び出したいため
   - unused_declaration
   - unused_import
