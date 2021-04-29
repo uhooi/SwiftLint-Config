@@ -1,7 +1,7 @@
 # SwiftLint-Config
 
 [![License](https://img.shields.io/github/license/uhooi/SwiftLint-Config)](https://github.com/uhooi/SwiftLint-Config/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fthe_uhooi)](https://twitter.com/the_uhooi)
+[![Twitter](https://img.shields.io/twitter/follow/the_uhooi?style=social)](https://twitter.com/the_uhooi)
 
 Uhooi's base SwiftLint configuration file.
 
