@@ -167,6 +167,7 @@ opt_in_rules:
   #- prefixed_toplevel_constant # 定数のプリフィックスに `k` を付けたくないため
   - private_action
   - private_outlet
+  - private_subject
   #- prohibited_interface_builder # IBを使ってビューを生成したいため
   - prohibited_super_call
   - quick_discouraged_call
