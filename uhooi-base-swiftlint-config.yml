@@ -12,7 +12,6 @@ disabled_rules:
   #- custom_rules
   #- cyclomatic_complexity
   #- deployment_target
-  #- discarded_notification_center_observer
   #- discouraged_direct_init
   #- duplicate_enum_cases
   #- duplicate_imports
@@ -101,6 +100,7 @@ opt_in_rules:
   - contains_over_first_not_nil
   - contains_over_range_nil_comparison
   - convenience_type
+  - discarded_notification_center_observer
   - discouraged_object_literal
   - discouraged_optional_boolean
   - discouraged_optional_collection
