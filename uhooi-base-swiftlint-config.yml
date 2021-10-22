@@ -105,7 +105,6 @@ opt_in_rules:
   - convenience_type
   - discarded_notification_center_observer
   - discouraged_assert
-  - discouraged_none_name
   - discouraged_object_literal
   - discouraged_optional_boolean
   - discouraged_optional_collection
