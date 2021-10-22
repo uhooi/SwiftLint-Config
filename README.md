@@ -12,7 +12,8 @@ Here's a reference of which SwiftLint-Config version to use for a given SwiftLin
 |SwiftLint version|Last supported SwiftLint-Config release|
 |:--|:--|
 |0.42.0|1.0.0|
-|0.43.0-0.43.1|Latest|
+|0.43.0-0.43.1|1.1.0|
+|0.44.0|Latest|
 
 ## Usage
 
