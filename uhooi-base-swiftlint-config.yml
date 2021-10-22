@@ -15,6 +15,7 @@ disabled_rules:
   #- discouraged_direct_init
   #- duplicate_enum_cases
   #- duplicate_imports
+  #- duplicated_key_in_dictionary_literal
   #- dynamic_inline
   #- empty_enum_arguments
   #- empty_parameters
@@ -87,6 +88,7 @@ disabled_rules:
   #- xctfail_message
 
 opt_in_rules:
+  #- anonymous_argument_in_multiline_closure
   - anyobject_protocol
   - array_init
   - attributes
