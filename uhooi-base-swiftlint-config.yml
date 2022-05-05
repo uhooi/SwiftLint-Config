@@ -182,6 +182,7 @@ opt_in_rules:
   - redundant_type_annotation
   #- required_deinit # できる限りデイニシャライザを省略したいため
   - required_enum_case
+  - return_value_from_void_function
   - single_test_class
   - sorted_first_last
   #- sorted_imports # インポート文をアルファベット順以外に並び替えたいこともあるため
