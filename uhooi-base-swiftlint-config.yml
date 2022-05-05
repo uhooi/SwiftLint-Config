@@ -5,6 +5,7 @@ disabled_rules:
   #- closure_parameter_position
   #- colon
   #- comma
+  #- comma_inheritance
   #- comment_spacing
   #- compiler_protocol_init
   #- computed_accessors_order
@@ -75,6 +76,7 @@ disabled_rules:
   #- trailing_whitespace
   #- type_body_length
   #- type_name
+  #- unavailable_condition
   #- unneeded_break_in_switch
   #- unused_capture_list
   #- unused_closure_parameter
@@ -89,6 +91,7 @@ disabled_rules:
   #- xctfail_message
 
 opt_in_rules:
+  - accessibility_label_for_image
   #- anonymous_argument_in_multiline_closure
   - anyobject_protocol
   - array_init
@@ -182,6 +185,7 @@ opt_in_rules:
   - redundant_type_annotation
   #- required_deinit # できる限りデイニシャライザを省略したいため
   - required_enum_case
+  - return_value_from_void_function
   - single_test_class
   - sorted_first_last
   #- sorted_imports # インポート文をアルファベット順以外に並び替えたいこともあるため
@@ -207,6 +211,7 @@ opt_in_rules:
 analyzer_rules:
   - capture_variable
   #- explicit_self # 関数は `self.` を付けずに呼び出したいため
+  - typesafe_array_init
   - unused_declaration
   - unused_import
 
