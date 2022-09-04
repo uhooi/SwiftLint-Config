@@ -88,6 +88,7 @@ disabled_rules:
   #- vertical_parameter_alignment
   #- vertical_whitespace
   #- void_return
+  #- void_function_in_ternary
   #- xctfail_message
 
 opt_in_rules:
