@@ -18,7 +18,7 @@ Here's a reference of which SwiftLint-Config version to use for a given SwiftLin
 |0.45.1|1.4.0|
 |0.46.0-0.46.5|1.5.0|
 |0.47.0|1.6.0|
-|0.47.1|Latest|
+|0.47.1-0.48.0|Latest|
 
 ## Usage
 
