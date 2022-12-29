@@ -48,6 +48,7 @@ disabled_rules:
   #- no_fallthrough_only
   #- no_space_in_method_call
   #- notification_center_detachment
+  #- ns_number_init_as_function_reference
   #- nsobject_prefer_isequal
   #- opening_brace
   #- operator_whitespace
@@ -93,8 +94,8 @@ disabled_rules:
 
 opt_in_rules:
   - accessibility_label_for_image
+  - accessibility_trait_for_button
   #- anonymous_argument_in_multiline_closure
-  - anyobject_protocol
   - array_init
   - attributes
   - balanced_xctest_lifecycle
@@ -189,6 +190,7 @@ opt_in_rules:
   - required_enum_case
   - return_value_from_void_function
   - self_binding
+  - shorthand_optional_binding
   - single_test_class
   - sorted_first_last
   #- sorted_imports # インポート文をアルファベット順以外に並び替えたいこともあるため
