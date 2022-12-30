@@ -160,7 +160,7 @@ opt_in_rules:
   - nimble_operator
   #- no_extension_access_modifier # エクステンションにACLを設定したいことがあるため
   #- no_grouping_extension # エクステンションでグルーピングしたいことがあるため
-  - no_magic_numbers
+  #- no_magic_numbers # マジックナンバーを使いたいときもあるため
   #- non_private_xctest_member # TODO: 未リリースのため
   - nslocalizedstring_key
   - nslocalizedstring_require_bundle
