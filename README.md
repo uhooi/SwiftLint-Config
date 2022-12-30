@@ -23,14 +23,14 @@ Here's a reference of which SwiftLint-Config version to use for a given SwiftLin
 |0.49.0|1.9.0|
 |0.49.1|1.10.0|
 |0.50.0|1.11.0|
-|0.50.1|Latest|
+|0.50.1-0.50.2|Latest|
 
 ## Usage
 
 Using a remote reference, your `.swiftlint.yml` could look like this:
 
 ```yaml
-parent_config: https://raw.githubusercontent.com/uhooi/SwiftLint-Config/v1.12.0/uhooi-base-swiftlint-config.yml
+parent_config: https://raw.githubusercontent.com/uhooi/SwiftLint-Config/v1.13.0/uhooi-base-swiftlint-config.yml
 ```
 
 See the SwiftLint documentation for more details.  
